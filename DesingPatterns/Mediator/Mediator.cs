@@ -20,16 +20,16 @@ public class Mediator : IMediator
         switch(ev.ToLower())
         {
             case ("a"):
-                Console.WriteLine($"Mediator reacts on {ev} and triggers operations");
+                Console.WriteLine($"Mediator reacts on {ev} from {sender} and triggers operations");
                 this._component2.DoC();
                 break;
             case ("d"):
-                Console.WriteLine($"Mediator reacts on {ev} and triggers operations");
+                Console.WriteLine($"Mediator reacts on {ev} from {sender} and triggers operations");
                 this._component1.DoB();
                 this._component2.DoC();
                 break;
             default:
-                Console.WriteLine($"{ev} was triggered");
+                Console.WriteLine($"Mediator reacts on {ev} from {sender}");
                 break;
         }
     }
