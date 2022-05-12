@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using DesingPatterns.Factory;
 using DesingPatterns.Mediator;
 using DesingPatterns.Mediator.Components;
 using DesingPatterns.Observer;
@@ -11,6 +12,8 @@ class Program
         Mediator();
         Console.WriteLine("===============================");
         Observer();
+        Console.WriteLine("===============================");
+        Factory();
     }
 
     private static void Mediator()
@@ -43,5 +46,11 @@ class Program
         subject.Detach(observerB);
         
         subject.SomeBusinessLogic();
+    }
+
+    private static void Factory()
+    {
+        var client = new Client();
+        client.Main();
     }
 }
