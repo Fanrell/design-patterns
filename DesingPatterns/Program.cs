@@ -2,12 +2,15 @@
 
 using DesingPatterns.Mediator;
 using DesingPatterns.Mediator.Components;
+using DesingPatterns.Observer;
 
 class Program
 {
     static void Main(string[] args)
     {
         Mediator();
+        Console.WriteLine("===============================");
+        Observer();
     }
 
     private static void Mediator()
@@ -23,5 +26,22 @@ class Program
         
         Console.WriteLine("Client triggerts operation D");
         component2.DoD();
+    }
+
+    private static void Observer()
+    {
+        var subject = new Subject();
+        var observerA = new ObserverA();
+        var observerB = new ObserverB();
+        
+        subject.Attach(observerA);
+        subject.Attach(observerB);
+        
+        subject.SomeBusinessLogic();
+        subject.SomeBusinessLogic();
+        
+        subject.Detach(observerB);
+        
+        subject.SomeBusinessLogic();
     }
 }

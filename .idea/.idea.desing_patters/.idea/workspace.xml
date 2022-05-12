@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab16db4f-e673-42c0-b05c-5e5c816e646a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.desing_patters/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesingPatterns/Observer/IObserver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesingPatterns/Observer/ISubject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesingPatterns/Observer/ObserverA.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesingPatterns/Observer/ObserverB.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesingPatterns/Observer/Subject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.desing_patters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.desing_patters/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesingPatterns/Mediator/Mediator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesingPatterns/Mediator/Mediator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesingPatterns/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesingPatterns/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="293a7zYWJYHYc97WwIVrqA6VN5l" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652344060305</updated>
-      <workItem from="1652344080707" duration="3360000" />
+      <workItem from="1652344080707" duration="6041000" />
     </task>
     <servers />
   </component>
