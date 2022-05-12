@@ -1,0 +1,15 @@
+C:\Users\SD792363\Project\desing_patters\desing_patters\bin\Debug\net6.0\desing_patters.exe
+C:\Users\SD792363\Project\desing_patters\desing_patters\bin\Debug\net6.0\desing_patters.deps.json
+C:\Users\SD792363\Project\desing_patters\desing_patters\bin\Debug\net6.0\desing_patters.runtimeconfig.json
+C:\Users\SD792363\Project\desing_patters\desing_patters\bin\Debug\net6.0\desing_patters.dll
+C:\Users\SD792363\Project\desing_patters\desing_patters\bin\Debug\net6.0\ref\desing_patters.dll
+C:\Users\SD792363\Project\desing_patters\desing_patters\bin\Debug\net6.0\desing_patters.pdb
+C:\Users\SD792363\Project\desing_patters\desing_patters\obj\Debug\net6.0\desing_patters.csproj.AssemblyReference.cache
+C:\Users\SD792363\Project\desing_patters\desing_patters\obj\Debug\net6.0\desing_patters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SD792363\Project\desing_patters\desing_patters\obj\Debug\net6.0\desing_patters.AssemblyInfoInputs.cache
+C:\Users\SD792363\Project\desing_patters\desing_patters\obj\Debug\net6.0\desing_patters.AssemblyInfo.cs
+C:\Users\SD792363\Project\desing_patters\desing_patters\obj\Debug\net6.0\desing_patters.csproj.CoreCompileInputs.cache
+C:\Users\SD792363\Project\desing_patters\desing_patters\obj\Debug\net6.0\desing_patters.dll
+C:\Users\SD792363\Project\desing_patters\desing_patters\obj\Debug\net6.0\ref\desing_patters.dll
+C:\Users\SD792363\Project\desing_patters\desing_patters\obj\Debug\net6.0\desing_patters.pdb
+C:\Users\SD792363\Project\desing_patters\desing_patters\obj\Debug\net6.0\desing_patters.genruntimeconfig.cache
