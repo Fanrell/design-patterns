@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab16db4f-e673-42c0-b05c-5e5c816e646a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DesingPatterns/Factory/Client.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesingPatterns/Factory/Creator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesingPatterns/Factory/Creator1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesingPatterns/Factory/Creator2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesingPatterns/Factory/IProduct.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesingPatterns/Factory/Product1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesingPatterns/Factory/Product2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesingPatterns/Builder/Builder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesingPatterns/Builder/Director.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesingPatterns/Builder/IBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesingPatterns/Builder/Product.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.desing_patters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.desing_patters/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesingPatterns/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DesingPatterns/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652344060305</updated>
-      <workItem from="1652344080707" duration="8026000" />
+      <workItem from="1652344080707" duration="10085000" />
     </task>
     <servers />
   </component>

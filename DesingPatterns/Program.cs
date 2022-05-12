@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using DesingPatterns.Builder;
 using DesingPatterns.Factory;
 using DesingPatterns.Mediator;
 using DesingPatterns.Mediator.Components;
@@ -14,6 +15,8 @@ class Program
         Observer();
         Console.WriteLine("===============================");
         Factory();
+        Console.WriteLine("===============================");
+        Builder();
     }
 
     private static void Mediator()
@@ -52,5 +55,26 @@ class Program
     {
         var client = new Client();
         client.Main();
+    }
+
+    private static void Builder()
+    {
+        var director = new Director();
+        var builder = new Builder();
+
+        director.Builder = builder;
+        
+        Console.WriteLine("Basic");
+        director.BuildMinimalViableProduct();
+        Console.WriteLine(builder.GetProduct().ListParts());
+        
+        Console.WriteLine("Full featured");
+        director.BuildFullFeaturedProduct();
+        Console.WriteLine(builder.GetProduct().ListParts());
+        
+        Console.WriteLine("Custom");
+        builder.BuildPartB();
+        builder.BuildPartC();
+        Console.WriteLine(builder.GetProduct().ListParts());
     }
 }
