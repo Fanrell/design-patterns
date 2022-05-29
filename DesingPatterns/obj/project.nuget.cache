@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bNYhcXCTQ6rVGVFn9spzBrfoLsvMv73BD1k7cAOPMpc6QwHG0AzHWmihT6Eoqcb5rLZE7b9Z2AhvONOXQxMXFw==",
+  "dgSpecHash": "LJvHVwIjweavZSKn5gOCy5bXJr290lLCeh5n2EHV8ZWwKd0Hf0XIWBcPt5lwjBMvouRjd60Li6gfKD//+QCGxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SD792363\\Project\\desing_patters\\DesingPatterns\\DesingPatterns.csproj",
+  "projectFilePath": "C:\\Projects\\design-patterns\\DesingPatterns\\DesingPatterns.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

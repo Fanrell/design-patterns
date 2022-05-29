@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using DesingPatterns.Command;
 using DesingPatterns.Factory;
 using DesingPatterns.Mediator;
 using DesingPatterns.Mediator.Components;
@@ -14,6 +15,8 @@ class Program
         Observer();
         Console.WriteLine("===============================");
         Factory();
+        Console.WriteLine("===============================");
+        Command();
     }
 
     private static void Mediator()
@@ -52,5 +55,15 @@ class Program
     {
         var client = new Client();
         client.Main();
+    }
+
+    private static void Command()
+    {
+        var invoker = new Invoker();
+        invoker.SetOnStart(new SimpleCommand("Hi all"));
+        var reciver = new Reciver();
+        invoker.SetOnFinish(new ComplexCommand(reciver, "Send Email", "Save Raport"));
+        
+        invoker.DoSomethingImportant();
     }
 }
