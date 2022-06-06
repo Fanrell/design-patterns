@@ -5,6 +5,7 @@ using DesingPatterns.Command;
 using DesingPatterns.Factory;
 using DesingPatterns.Mediator;
 using DesingPatterns.Mediator.Components;
+using DesingPatterns.Memento;
 using DesingPatterns.Observer;
 
 class Program
@@ -20,6 +21,8 @@ class Program
         Builder();
         Console.WriteLine("===============================");
         Command();
+        Console.WriteLine("===============================");
+        Memento();
     }
 
     private static void Mediator()
@@ -89,5 +92,31 @@ class Program
         invoker.SetOnFinish(new ComplexCommand(reciver, "Send Email", "Save Raport"));
         
         invoker.DoSomethingImportant();
+    }
+
+    private static void Memento()
+    {
+        Originator originator = new Originator("Super-duper-super-puper-super.");
+        Caretaker caretaker = new Caretaker(originator);
+
+        caretaker.Backup();
+        originator.DoSomething();
+
+        caretaker.Backup();
+        originator.DoSomething();
+
+        caretaker.Backup();
+        originator.DoSomething();
+
+        Console.WriteLine();
+        caretaker.ShowHistory();
+
+        Console.WriteLine("\nClient: Now, let's rollback!\n");
+        caretaker.Undo();
+
+        Console.WriteLine("\n\nClient: Once more!\n");
+        caretaker.Undo();
+
+        Console.WriteLine();
     }
 }
