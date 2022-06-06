@@ -2,11 +2,12 @@
 
 using DesingPatterns.Builder;
 using DesingPatterns.Command;
-using DesingPatterns.Factory;
 using DesingPatterns.Mediator;
 using DesingPatterns.Mediator.Components;
 using DesingPatterns.Memento;
 using DesingPatterns.Observer;
+using DesingPatterns.Template;
+using Client = DesingPatterns.Factory.Client;
 
 class Program
 {
@@ -23,6 +24,8 @@ class Program
         Command();
         Console.WriteLine("===============================");
         Memento();
+        Console.WriteLine("===============================");
+        Template();
     }
 
     private static void Mediator()
@@ -118,5 +121,17 @@ class Program
         caretaker.Undo();
 
         Console.WriteLine();
+    }
+
+    private static void Template()
+    {
+        Console.WriteLine("Same client code can work with different subclasses:");
+
+        DesingPatterns.Template.Client.ClientCode(new ConcreteClass1());
+
+        Console.Write("\n");
+            
+        Console.WriteLine("Same client code can work with different subclasses:");
+        DesingPatterns.Template.Client.ClientCode(new ConcreteClass2());
     }
 }
