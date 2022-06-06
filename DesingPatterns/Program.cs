@@ -6,6 +6,7 @@ using DesingPatterns.Mediator;
 using DesingPatterns.Mediator.Components;
 using DesingPatterns.Memento;
 using DesingPatterns.Observer;
+using DesingPatterns.Strategy;
 using DesingPatterns.Template;
 using Client = DesingPatterns.Factory.Client;
 
@@ -26,6 +27,8 @@ class Program
         Memento();
         Console.WriteLine("===============================");
         Template();
+        Console.WriteLine("===============================");
+        Strategy();
     }
 
     private static void Mediator()
@@ -133,5 +136,20 @@ class Program
             
         Console.WriteLine("Same client code can work with different subclasses:");
         DesingPatterns.Template.Client.ClientCode(new ConcreteClass2());
+    }
+
+    private static void Strategy()
+    {
+        var context = new Context();
+
+        Console.WriteLine("Client: Strategy is set to normal sorting.");
+        context.SetStrategy(new ConcreteStrategyA());
+        context.DoBusinessLogic();
+            
+        Console.WriteLine();
+            
+        Console.WriteLine("Client: Strategy is set to reverse sorting.");
+        context.SetStrategy(new ConcreteStrategyB());
+        context.DoBusinessLogic();
     }
 }
