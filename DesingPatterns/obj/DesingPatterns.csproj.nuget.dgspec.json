@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\design-patterns\\DesingPatterns\\DesingPatterns.csproj": {}
+    "C:\\Users\\SD792363\\Project\\desing_patters\\DesingPatterns\\DesingPatterns.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\design-patterns\\DesingPatterns\\DesingPatterns.csproj": {
+    "C:\\Users\\SD792363\\Project\\desing_patters\\DesingPatterns\\DesingPatterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\design-patterns\\DesingPatterns\\DesingPatterns.csproj",
+        "projectUniqueName": "C:\\Users\\SD792363\\Project\\desing_patters\\DesingPatterns\\DesingPatterns.csproj",
         "projectName": "DesingPatterns",
-        "projectPath": "C:\\Projects\\design-patterns\\DesingPatterns\\DesingPatterns.csproj",
-        "packagesPath": "C:\\Users\\ciesl\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\design-patterns\\DesingPatterns\\obj\\",
+        "projectPath": "C:\\Users\\SD792363\\Project\\desing_patters\\DesingPatterns\\DesingPatterns.csproj",
+        "packagesPath": "C:\\Users\\SD792363\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SD792363\\Project\\desing_patters\\DesingPatterns\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ciesl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\SD792363\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://proget/nuget/SDWorxNuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\ciesl\\.dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
